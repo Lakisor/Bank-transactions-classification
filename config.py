@@ -1,0 +1,15 @@
+NUM_SAMPLES = 1000
+ANOMALY_RATIO = 0.1
+TEST_SIZE = 0.2
+RANDOM_STATE = 42
+
+DATABASE_PATH = 'transactions.db'
+ZERO_SHOT_MODEL = 'all-MiniLM-L6-v2'
+FINE_TUNED_MODEL = 'distilbert-base-uncased'
+
+NUM_EPOCHS = 3
+BATCH_SIZE = 16
+MAX_LENGTH = 128
+
+OUTPUT_DIR = './results'
+LOG_DIR = './logs'
